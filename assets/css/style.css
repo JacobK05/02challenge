@@ -50,7 +50,7 @@ p {
     font-size: 16px;
 }
 
-.figure {
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -69,13 +69,14 @@ p {
     margin-left: 25px;
 }
 
-.section {
+
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.aside {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,49 +87,17 @@ p {
     background-color: #2589bd;
 }
 
-.aside-lead {
+.aside-cost, .aside-brand, .aside-lead {
     margin-bottom: 15px;
     color: #ffffff;
 }
 
-.aside-brand {
-    margin-bottom: 15px;
-    color: #ffffff;
-}
-
-.aside-cost {
-    margin-bottom: 15px;
-    color: #ffffff;
-}
-
-.aside-lead h3 {
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-.aside-brand h3 {
+.aside-lead, .aside-brand, .aside-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.aside-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.aside-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 115px;
-}
-
-.aside-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 115px;
-}
-
-.aside-cost img {
+.aside-lead img, .aside-brand img, .aside-cost img {
     display: block;
     margin: 10px auto;
     max-width: 115px;
